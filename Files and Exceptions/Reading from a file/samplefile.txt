@@ -1,0 +1,22 @@
+#DATE - 27/2/2025
+
+#Topic Reading from a file
+#=> When we  want to work with the information in a text file the first step is
+# to read the file into memory
+
+#1. Reading the content of a file
+
+from pathlib import Path  # Pathlib is a module in Python that provides an object-oriented interface for handling filesystem paths.
+                          # It simplifies path manipulations and operations such as creating,
+                          # deleting, moving, renaming, reading, writing, finding, or splitting files.
+
+                          # And Path is the class inside pathlib module file
+
+path = Path("samplefile.txt") # create a path object(instance) for class Path and pass the text file name which we created as argument of Path class
+show_file_content = path.read_text() # Create a variable and call the path object(instance) and use the Path class function name read_text()
+                                     # This read_text() function basically read the text present inside the file
+
+
+print(show_file_content)# Here we simply print the content of the file by calling the variable inside the print statement
+#or
+print(path.read_text())

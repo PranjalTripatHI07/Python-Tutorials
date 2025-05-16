@@ -1,0 +1,11 @@
+language = python
+
+topic = Files
+
+We have learned about Files in this unit
+=> We can see the content of the file using => pathlip module and by using read_text() function we can easily see the content
+of the file
+
+=> We can use splitlines() function to split the lines of the content
+=> similarly we can use other different function to interact with the file content
+

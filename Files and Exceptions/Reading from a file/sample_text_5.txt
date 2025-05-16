@@ -1,0 +1,2 @@
+we can use splitlines() method to turn a long string into a set of lines
+and then use a for loop to examine each line from a file one at a time
