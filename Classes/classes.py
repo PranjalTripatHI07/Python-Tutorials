@@ -37,7 +37,7 @@ class Dog:
 # 1. The __init__() method => __init__() is a special method that python runs automatically whenever we create a new instance(object) based on that class
 # In short __init__() is a special method used for initialization of instance or object based on that class
 
-# 2. __init(self, other_parameters): =>
+# 2. __init__(self, other_parameters): =>
 #  __init__(self, other_parameters) => The self parameter is required in the method or function definition and it comes first before other parameter
 
 # (The self parameter is important for calling a instance of an object)
